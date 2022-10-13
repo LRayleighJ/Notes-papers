@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1664819494 "e:/LRayleighJ/NAOC/proposal/21cmIntensityMapping.tex" "21cmIntensityMapping.pdf" "21cmIntensityMapping" 1664819495
-  "21cmIntensityMapping.aux" 1664819495 547 b40ee7b12f1a5190805de5196c44d4c1 "pdflatex"
-  "21cmIntensityMapping.tex" 1664819494 5307 9172772cff3babee33ab2aa91a77f2cc ""
-  "21cmIntensityMapping.toc" 1664819495 258 26ae8cf5ec5c2c32d2754d4514bf663f "pdflatex"
+["pdflatex"] 1665598066 "e:/LRayleighJ/NAOC/WORK/proposal/21cmcosmo.tex" "21cmcosmo.pdf" "21cmcosmo" 1665598067
+  "21cmcosmo.aux" 1665598067 547 b40ee7b12f1a5190805de5196c44d4c1 "pdflatex"
+  "21cmcosmo.tex" 1665598065 6999 aa2a0c17184da284f104617c077a7f27 ""
+  "21cmcosmo.toc" 1665598067 258 26ae8cf5ec5c2c32d2754d4514bf663f "pdflatex"
   "d:/TEXLIVE/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1663123128 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "d:/TEXLIVE/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1663123337 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "d:/TEXLIVE/texlive/2022/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1663123252 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -67,10 +67,10 @@
   "d:/TEXLIVE/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1663124264 4448438 5f659aa5823e2d599c45fdf605bd1f67 ""
   "d:/TEXLIVE/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1663124304 2826469 da4354f72ee6f408a7043e9eafb77dbd ""
   "d:/TEXLIVE/texlive/2022/texmf.cnf" 1663124252 713 e69b156964470283e0530f5060668171 ""
-  "e:/LRayleighJ/NAOC/proposal/21cmIntensityMapping.tex" 1664819494 5307 9172772cff3babee33ab2aa91a77f2cc ""
+  "e:/LRayleighJ/NAOC/WORK/proposal/21cmcosmo.tex" 1665598065 6999 aa2a0c17184da284f104617c077a7f27 ""
   "history1.png" 1664458600 480948 710b0c1a8c3abe8f3be734f67e6e7725 ""
   (generated)
-  "21cmIntensityMapping.aux"
-  "21cmIntensityMapping.log"
-  "21cmIntensityMapping.pdf"
-  "21cmIntensityMapping.toc"
+  "21cmcosmo.aux"
+  "21cmcosmo.log"
+  "21cmcosmo.pdf"
+  "21cmcosmo.toc"
