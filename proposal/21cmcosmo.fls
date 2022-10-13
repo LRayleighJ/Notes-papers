@@ -313,9 +313,10 @@ INPUT ./21cmcosmo.toc
 INPUT 21cmcosmo.toc
 INPUT 21cmcosmo.toc
 INPUT d:/TEXLIVE/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+INPUT d:/TEXLIVE/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT d:/TEXLIVE/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 OUTPUT 21cmcosmo.toc
-INPUT d:/TEXLIVE/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT d:/TEXLIVE/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT d:/TEXLIVE/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 OUTPUT 21cmcosmo.pdf
 INPUT d:/TEXLIVE/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT ./history1.png
