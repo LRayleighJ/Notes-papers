@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.14)  13 OCT 2022 22:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.14)  15 OCT 2022 02:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -270,13 +270,13 @@ Package pdftex.def Info: history1.png  used on input line 39.
 Here is how much of TeX's memory you used:
  4490 strings out of 478268
  68822 string characters out of 5846353
- 374668 words of memory out of 5000000
+ 375668 words of memory out of 5000000
  22664 multiletter control sequences out of 15000+600000
  474977 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,7n,62p,884b,261s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {d:/TEXLIVE/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<d:/TEXLIVE/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><d:/TEXLIVE/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/TEXLIVE/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/TEXLIVE/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><d:/TEXLIVE/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/TEXLIVE/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/TEXLIVE/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><d:/TEXLIVE/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><d:/TEXLIVE/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/TEXLIVE/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><d:/TEXLIVE/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on 21cmcosmo.pdf (4 pages, 508544 bytes).
+Output written on 21cmcosmo.pdf (4 pages, 510212 bytes).
 PDF statistics:
  76 PDF objects out of 1000 (max. 8388607)
  45 compressed objects within 1 object stream
