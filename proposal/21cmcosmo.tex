@@ -61,13 +61,36 @@ It is important to note that the redshift bounds for these phases are not clear.
 
 After reionization, only about 1\% of the baryonic material is contained in the residual HI fraction ($\Omega_{HI}\sim 0.01$). Although the total percentage of HI after reionization is relatively small, the absolute content is still large enough to be observed. And for HI observations at redshifts z = 1 to 3, the Galactic synchrotron emission as the main foreground is several orders of magnitude smaller than the emission from the 21 cm line. This makes 21cm intensity mapping still possible in this redshift interval. Due to the wide distribution of HI, HI can be used as a tracer material for the large-scale structure of the universe.21cm intensity mapping can replace the traditional observation of galaxies to some extent as a means to study the large-scale structure of the universe.
 
-\subsection{Large scale structure mapping at low redshift}
+\subsection{Structure growth and dark energy domination}
 In order to understand the role of dark energy in cosmology, it is necessary to study the second half of the history of the expansion of the universe, i.e., the redshift $z=0~2$. For the observation of the late cosmic expansion history, many projects have chosen to detect baryon acoustic oscillation (BAO). Because the acousic wave was frozen after the recombination, the wavelength of BAO peak, about $100h^{-1}Mpc$, provides a standard ruler. The observation of the angular size of BAO peak wavelength at different redshift would provide a accurate measurement of the history of the expansion of the universe.
 
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.5]{linearBAO.png}
+    \caption{}
+    \label{linearBAO}
+\end{figure}
+
+The traditional method of observing galaxies obtains the characteristic wavelength of BAO by measuring the luminosity and mass of the galaxy and calculating the two-point correlation function. A peak would be seen in two-point correlation function at $r\sim 100h^{-1}Mpc$, which corresponds to the peak wavelength of BAO. However, computing the two-point correlation function requires huge amount of computational resources and computational time. In addition to calculating the two-point correlation function of the galaxy distribution, the Fourier transform of the density field can also be used to probe BAO features. The single acoustic scale of BAO effect causes the Fourier power spectrum of the density field to exhibit the characteristics of a standing wave. The power spectrum encodes the response of the universe to a plane wave perturbation. Each crest of the initial wave produces a plane acoustic wave that travels at a distance equal to the acoustic scale. If the wave deposits the baryon perturbation on another crest of the dark matter perturbation, a constructive disturbance is obtained; if the acoustic wave ends in a dark matter trough, a destructive disturbance is obtained. The result is a harmonic relationship between the wavelength of the disturbance and the acoustic scale.
+
+Above the third BAO peak, the nonlinear evolution weakens the BAO structure, so the third peak is the smallest spatial scale we need to consider. The wavelength of this peak is 35 hMpc. Therefore, a Nyquist-sampled map requires 18 Mpc-sized pixels. At z = 1.5, the corresponding angular wavelength is 20 arc minutes, which requires a telescope of about 200 wavelengths, or 100 m to resolve.
+
+Figure \ref{BAOparameter} shows the relevant regions of BAO that can be detected. The upper exclusion region is due to the nonlinear growth of the structure, which erases the baryon oscillations in the power spectrum. The exclusion region on the left comes from the finite volume of the Universe, which limits the maximum wavelength mode within the survey. The region on the right is a rough estimate of the foreground limit, which is based on a simple discretization of the adjacent frequency channels to remove the relevant foreground component. The white accessible region indicates that the first three BAO peaks can be obtained by intensity mapping experiments.
+
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.35]{BAOparameter.png}
+    \caption{}
+    \label{BAOparameter}
+\end{figure}
 
 
-\subsection{Observation of reionization and cosmic dawn at high redshift}
+\subsection{Post-reionization era}
+
+\subsection{Reionization, cosmic dawn and dark ages}
 
 \section{Intensity mapping with FAST}
+The Five-hundred-meter Aperture Spherical radio Telescope (FAST) is a major science project in China to build the world's largest single dish and most sensitive radio telescope. So far, several observation modes such as tracking, drift scan, and basket scan have been implemented, which means that the functional commissioning task has been completed. Now, the sensitivity of FAST has reached $2000 m^2/K$, the system noise temperature has been controlled below $20K$ (19-beam 1.05-1.45 GHz receiver), and the pointing accuracy of the feed receiver has reached about $16"$. 
+
 
 \end{document}

@@ -325,6 +325,16 @@ INPUT history1.png
 INPUT ./history1.png
 INPUT ./history1.png
 INPUT d:/TEXLIVE/texlive/2022/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm
+INPUT ./linearBAO.png
+INPUT ./linearBAO.png
+INPUT linearBAO.png
+INPUT ./linearBAO.png
+INPUT ./linearBAO.png
+INPUT ./BAOparameter.png
+INPUT ./BAOparameter.png
+INPUT BAOparameter.png
+INPUT ./BAOparameter.png
+INPUT ./BAOparameter.png
 INPUT 21cmcosmo.aux
 INPUT d:/TEXLIVE/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 INPUT d:/TEXLIVE/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
