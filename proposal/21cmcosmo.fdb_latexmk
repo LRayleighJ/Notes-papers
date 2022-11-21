@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1665942908 "e:/LRayleighJ/NAOC/WORK/proposal/21cmcosmo.tex" "21cmcosmo.pdf" "21cmcosmo" 1665942909
-  "21cmcosmo.aux" 1665942909 1179 d45227bee65f584e95e1ee772fc2e465 "pdflatex"
-  "21cmcosmo.tex" 1665942907 12590 a82659e42b04dddf8795467b1a15c50f ""
-  "21cmcosmo.toc" 1665942909 500 97ef3c928053515d7fb8b8741fe471f2 "pdflatex"
+["pdflatex"] 1669024609 "e:/LRayleighJ/NAOC/WORK/proposal/21cmcosmo.tex" "21cmcosmo.pdf" "21cmcosmo" 1669024611
+  "21cmcosmo.aux" 1669024610 1179 d45227bee65f584e95e1ee772fc2e465 "pdflatex"
+  "21cmcosmo.tex" 1669024608 12590 a82659e42b04dddf8795467b1a15c50f ""
+  "21cmcosmo.toc" 1669024610 500 97ef3c928053515d7fb8b8741fe471f2 "pdflatex"
   "BAOparameter.png" 1665940752 62862 a923d7adc873ea0ddfe9d2cacb8374f4 ""
   "d:/TEXLIVE/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1663123128 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "d:/TEXLIVE/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1663123337 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -68,7 +68,7 @@
   "d:/TEXLIVE/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1663124264 4448438 5f659aa5823e2d599c45fdf605bd1f67 ""
   "d:/TEXLIVE/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1663124304 2826469 da4354f72ee6f408a7043e9eafb77dbd ""
   "d:/TEXLIVE/texlive/2022/texmf.cnf" 1663124252 713 e69b156964470283e0530f5060668171 ""
-  "e:/LRayleighJ/NAOC/WORK/proposal/21cmcosmo.tex" 1665942907 12590 a82659e42b04dddf8795467b1a15c50f ""
+  "e:/LRayleighJ/NAOC/WORK/proposal/21cmcosmo.tex" 1669024608 12590 a82659e42b04dddf8795467b1a15c50f ""
   "history1.png" 1664458600 480948 710b0c1a8c3abe8f3be734f67e6e7725 ""
   "linearBAO.png" 1665851645 107316 d746bf152ff8004ef97c25229b537b26 ""
   (generated)
