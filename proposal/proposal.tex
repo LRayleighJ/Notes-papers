@@ -1,0 +1,71 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{float}
+\usepackage{subfigure}
+\usepackage{enumerate}
+\usepackage{geometry}
+\usepackage{cite}
+\usepackage{color}
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage{multirow} % for cmd 'multirow', 'multicolumn'
+
+
+% \usepackage{geometry}
+% \geometry{a4paper,scale=0.8}
+
+\usepackage{appendix}
+
+\title{Neutral Hydrogen 21cm line intensity mapping with FAST}
+\author{Liu Zerui}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+In the last three decades, mature cosmological theories have brought a fundamental understanding of the evolution of the universe from 400,000 years after the Big Bang to the present day, but the first billion years corresponding to the formation of the first stars and galaxies remain a mystery. Accurate observations of this period will provide important constraints on star formation and galaxy evolution. The evolution of large-scale structures bridges early universe and present universe. Fluctuations in the Cosmic Microwave Background temperature map reveal that the density of early universe was inhomogeneous at the level of 1 in 100,000. These fluctuations grow into larger nonlinear structures under gravity. The first stars and galaxies formed in dense regions where the gas collapsed and cooled, and evolved over time to form the observable large-scale matter distribution today\cite{Pritchard_2012}\cite{Penzias_1965}\cite{Weinberg_2013}.
+
+For large-scale structures of the observable universe, numerous optical galaxy surveys have emerged in the last two decades, such as 2DFGRS\cite{Percival_2001}, SDSS\cite{gunn_1995}\cite{Tegmark_1997}\cite{Schlegel_2009}, and WiggleZ\cite{Glazebrook_2007}\cite{Drinkwater_2010}. Optical galaxy surveys have large measurement errors at high redshifts, for the number of observable galaxies decreases sharply with increasing redshift\cite{Eisenstein_2005}\cite{Percival_2010}. The 21 cm line of neutral hydrogen (HI) provides an excellent tracer of the cosmic matter distribution. The feasibility of using HI intensity mapping to provide constraints for cosmology has been discussed\cite{Chang2008} \cite{Datta_2022}\cite{2022arXiv221012164B}. This technique does not require the measurement of individual galaxies and the need for angular resolution is relatively low. Compared to currently available HI galaxy surveys, such as HIPASS\cite{Meyer_2004} and ALFALFA\cite{Saintonge_2007}, HI intensity mapping provides better measurements with less error at high redshifts\cite{Hu_2020}. 
+
+Currently, a new generation of radio telescopes has been built or is under planning, such as Square Kilometer Array (SKA)\cite{Dewdney_2009} and Five-hundred-meter Aperture Spherical radio Telescope (FAST)\cite{Nan_2011}. Our research is mainly based on FAST, a 500m aperture single dish telescope located in Guizhou Province, China. Although FAST has a lower angular resolution compared to traditional interferometer, its larger receiving area makes it well suited for HI intensity mapping observations at high redshifts. Numerical simulation observations and Fisher matrices prediction\cite{Hu_2020}\cite{Karagiannis_2022} indicate that FAST is expected to constrain cosmological parameters with no less precision than HI intensity mapping surveys currently being planned or piloted, such as MeerKAT\cite{Wang_2021}, HIRAX\cite{Crichton_2022}, and SKAO\cite{SKAO_2020}. However, HI intensity mapping is currently facing some problems, such as the removal of Milk Way foregrounds that are several orders of magnitude stronger than the HI signal. The current methods for removing the foreground include Principal Component Analysis (PCA)\cite{Hu_2021} and machine learning\cite{Ni_2022}, but methods with higher efficiency and accuracy are still required. Additionally, HI intensity mapping requires scanning a huge sky area of nearly 20,000 $deg^2$\cite{Hu_2020}\cite{Zhang_2019}, which requires a huge amount of observation time and cost,about $10^3\sim 10^4$ observation days. We plan to make small-scale observations of the $\sim 10^3 deg^2$ sky area first to verify the feasibility of intensity mapping with FAST. We will also consider future enhancements to the observation area and efficiency of the new UHF phased array feed that will be euipped on FAST. 
+
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+\begin{table}[H]
+    \centering
+    \begin{tabular}{c|c|cc}
+    \hline
+    \multicolumn{1}{l|}{}      & \multicolumn{1}{l|}{} & \multicolumn{1}{l}{$\sigma_{\omega_0}$} & \multicolumn{1}{l}{$\sigma_{\omega_\alpha}$} \\ \hline
+    \multirow{3}{*}{HIRAX-256 (IF,15000$deg^2$)} & P                     & 0.0465 (0.041)                          & 0.126 (0.1086)                               \\
+                               & B                     & 0.1836 (0.1708)                         & 0.4679 (0.4368)                              \\
+                               & P+B                   & 0.045 (0.0399)                          & 0.1214 (0.1053)                              \\ \hline
+    \multirow{3}{*}{HIRAX-1024 (IF,15000$deg^2$)} & P                     & 0.0313 (0.0286)                         & 0.0691 (0.0632)                              \\
+                               & B                     & 0.0867 (0.0803)                         & 0.2074 (0.0932)                              \\
+                               & P+B                   & 0.0288 (0.0264)                         & 0.0639 (0.0585)                              \\ \hline
+    \multirow{3}{*}{MeerKAT (SD,4000$deg^2$)(L Band/UHF Band)}   & P                     & 0.3163 (0.3029)                         & 1.0346 (0.9903)                               \\
+                               & B                     & 0.3504 (0.3143)                         & 1.3064 (1.171)                               \\
+                               & P+B                   & 0.2541 (0.233)                          & 0.8618 (0.7942)                              \\ \hline
+    \multirow{3}{*}{SKAO (SD,20000$deg^2$)(Band1/Band2)}      & P                     & 0.1369 (0.1278)                         & 0.4056 (0.3775)                                \\
+                               & B                     & 0.1642 (0.1413)                         & 0.5586 (0.4832)                              \\
+                               & P+B                   & 0.1041 (0.093)                          & 0.3235 (0.2906)                              \\ \hline
+    \multirow{10}{*}{FAST (SD,20000$deg^2$)(L band/wide band)}     & L 48s (220day)                & 0.19                                    & 0.53                                         \\
+                               & L 96s (440day)                & 0.15                                    & 0.43                                         \\
+                               & L 192s (880day)               & 0.13                                    & 0.36                                         \\
+                               & L 384s (1760day)               & 0.12                                    & 0.33                                         \\
+                               & (L+W) 48s            & 0.18                                    & 0.50                                         \\
+                               & (L+W) 96s            & 0.14                                    & 0.39                                         \\
+                               & (L+W) 192s           & 0.11                                    & 0.30                                         \\
+                               & (L+W) 384s           & 0.09                                    & 0.23                                         \\
+                               & L(192s)+P(216s)      & 0.05                                    & 0.12                                         \\
+                               & L(384s)+P(432s)      & 0.04                                    & 0.10                                         \\ \hline
+    \end{tabular}
+    \caption{Forecasts of marginalised 1$\sigma$ relative errors on cosmological parameters in $\omega_0\omega_\alpha$CDM model of MeerKAT, SKAO, HIRAX and FAST}
+    \end{table}
+
+\bibliographystyle{apalike}
+\bibliography{reference}
+
+
+
+\end{document}
